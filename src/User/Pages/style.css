@@ -1,0 +1,212 @@
+.bg-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bg-container img{
+    align-self: center;
+}
+.header-btn{
+    background-color:#1DAFA0 ;
+    color:#FFFEFE;
+    margin-left: 20px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+.header-container{
+    display: flex;
+    justify-content: space-around;
+}
+@media screen and (max-width:768px) {
+    .header-container img{
+        height: 20px;
+    }
+}
+.header-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.invest{
+    background-color: #1E3A8B;
+}
+
+.home-container{
+    background-color: #1DB0A0;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+.intro-information{
+    width: 370px;
+}
+.intro-icon{
+    height: 250px;
+    width: 657px;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .intro-icon{
+        height: 150px;
+        width: 450px;
+    }
+}
+
+.learn-more{
+    border-radius: 30px;
+    background: #1F3A8B;
+    padding: 10px 25px;
+    outline: none;
+    border: none;color: white;
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+}
+span{
+    color: #1F3A8B;
+}
+.human-resource-pic{
+    height: 450px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+}
+li{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+li img{
+    background-color: #1DB0A0;
+    height: 60px;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.list-box{
+    border-radius: 20px;
+    background: rgba(221, 237, 204, 0.60);
+    width: 350px;
+    text-align: left;
+    padding-left: 15px;
+}
+.list-box h3{
+    font-size: 15px;
+}
+
+.carousel-container{
+    padding: 20px 40px;
+    background: radial-gradient(253.89% 120.32% at 64.86% 1.85%, rgba(29, 176, 160, 0.60) 13.47%, rgba(31, 58, 139, 0.60) 40.61%, rgba(227, 239, 220, 0.60) 100%);
+
+}
+
+.r{
+    background-color: red;
+}
+
+.grow-container{
+    background: rgba(198, 240, 154, 0.30);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem 2px;
+    margin-top: 5rem;
+}
+.grow-data{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.grow-data p{
+    margin-bottom: 0px;
+}
+.Footer{
+    margin-top: 20px;
+}
+
+.fotter-head{
+    display: flex;
+    justify-content: space-around;
+}
+.fotter-head img{
+    height: 50px;
+}
+.fotter-head p{
+    font-size: 12px;
+}
+.fotter-head button{
+    width: 150px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #BB4774;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+.subscribe{
+    width: 850px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: rgba(198, 240, 154, 0.30);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 3rem;
+}
+.footer-details-box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.info-box{
+    display: flex;
+}
+.info-box .statements{
+    width: 300px;
+    text-align: left;
+}
+.info-box .address{
+    width: 150px;
+    margin-left: 5rem;
+}
+
+.invest-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.invest-box{
+    border-radius: 10px;
+background: #1DB0A0;
+box-shadow: 0px 141px 200px -80px rgba(25, 58, 75, 0.30);
+padding: 20px;
+}
+.points-box{
+    border: 1px solid #8C8888;
+background: linear-gradient(180deg, #DFE6FE 0%, #EBFEFC 100%);
+padding: 20px 20rem;
+}
+.sl{
+    background: radial-gradient(253.89% 120.32% at 64.86% 1.85%, rgba(29, 176, 160, 0.60) 13.47%, rgba(31, 58, 139, 0.60) 40.61%, rgba(227, 239, 220, 0.60) 100%);
+    padding: 30px;
+}
+.card-profile{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
